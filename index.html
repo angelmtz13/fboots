@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Noticias - Actualidad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="options">
+            <img src="img/ssearch.png" alt="">
+            <h2>BIENVENIDO A TU SITIO DE NOTICIAS</h2>
+            <img src="img/userr.png" alt="">
+        </div>
+    </header>
+    <body>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ¿A dónde quieres ir?
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#main-container">Principales Noticias</a></li>
+              <li><a class="dropdown-item" href="#carouselExample">Imagenes</a></li>
+              <li><a class="dropdown-item" href="#newsAccordion">Informacion importante</a></li>
+            </ul>
+          </div>
+        <div class="title">
+            <h3>¡LAS NOTICIAS MÁS ACTUALES! ⬇️</h3>
+        </div>
+        <div class="main-container">
+            <div class="card" style="width: 18rem;">
+                <img src="img/sismo.avif" class="card-img-top" alt="">
+                <div class="card-body">
+                <h5 class="card-title">Sismo magnitud 7 sacude a California; alertan por tsunami</h5>
+                <p class="card-text">El servicio metereológico de Estados Unidos confirmó que el epicentro estuvo en la entidad colindante con México.</p>
+                <a href="login.html" class="btn btn-primary">Enterate de más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/detenido.avif" class="card-img-top" alt="">
+                <div class="card-body">
+                <h5 class="card-title">Detienen con un kilo de pastillas de fentanilo a “El Gallero”; fungía como “cocinero” para el Cártel de Sinaloa</h5>
+                <p class="card-text">Adrián Cebreros estaría relacionado con el aseguramiento histórico de fentanilo reportado el pasado 4 de diciembre.</p>
+                <a href="login.html" class="btn btn-primary">Enterate de más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/sheinbaum.png" class="card-img-top" alt="">
+                <div class="card-body">
+                <h5 class="card-title">Sheinbaum anuncia aumento al salario mínimo del 12% para 2025</h5>
+                <p class="card-text">nunció la mañana de este miércoles un aumento al salario mínimo del 12% a partir del 1 de enero del 2025, tras un acuerdo con el sector obrero y empresarial.</p>
+                <a href="login.html" class="btn btn-primary">Enterate de más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/maynez.png" class="card-img-top" alt="">
+                <div class="card-body">
+                <h5 class="card-title">Álvarez Máynez es elegido como nuevo dirigente de Movimiento Ciudadano</h5>
+                <p class="card-text">Jorge Álvarez Máynez, fue designado como nuevo coordinador nacional de Movimiento Ciudadano, en relevo de Dante Delgado Rannauro.</p>
+                <a href="login.html" class="btn btn-primary">Enterate de más</a>
+                </div>
+            </div>
+        </div>
+        <h2 class="img-title">Imagenes relevantes de las ultimas noticias</h2>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/sismo.avif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/detenido.avif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/sheinbaum.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/maynez.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="accordion accordion-flush" id="newsAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#privacyPolicy" aria-expanded="false" aria-controls="privacyPolicy">
+                  Aviso de Privacidad
+                </button>
+              </h2>
+              <div id="privacyPolicy" class="accordion-collapse collapse" data-bs-parent="#newsAccordion">
+                <div class="accordion-body">
+                  <strong>Protección de Datos:</strong> Nos comprometemos a proteger la privacidad de nuestros usuarios.
+                  <p>La información recopilada se utilizará exclusivamente para los fines indicados y conforme a la legislación vigente.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#termsConditions" aria-expanded="false" aria-controls="termsConditions">
+                  Términos y Condiciones
+                </button>
+              </h2>
+              <div id="termsConditions" class="accordion-collapse collapse" data-bs-parent="#newsAccordion">
+                <div class="accordion-body">
+                  <strong>Uso del Sitio:</strong> Al acceder a nuestro sitio, usted acepta cumplir con nuestros términos y condiciones.
+                  <p>El uso indebido del contenido puede resultar en sanciones legales.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cookiesPolicy" aria-expanded="false" aria-controls="cookiesPolicy">
+                  Política de Cookies
+                </button>
+              </h2>
+              <div id="cookiesPolicy" class="accordion-collapse collapse" data-bs-parent="#newsAccordion">
+                <div class="accordion-body">
+                  <strong>Uso de Cookies:</strong> Este sitio utiliza cookies para mejorar la experiencia del usuario.
+                  <p>Puede gestionar sus preferencias de cookies desde la configuración de su navegador.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</body>
+</html>
